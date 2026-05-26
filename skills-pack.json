@@ -1,0 +1,18 @@
+{
+  "name": "arXiv Digest",
+  "version": "0.1.0",
+  "description": "Daily digest of newest AI / autonomous-agent papers on arXiv — top submissions in cs.AI, cs.LG, cs.MA.",
+  "author": "sparkleware",
+  "license": "MIT",
+  "homepage": "https://github.com/sparkleware/arxiv-digest",
+  "skills": [
+    {
+      "slug": "daily-papers",
+      "path": "skills/daily-papers",
+      "description": "Fetches the latest 10 submissions from arXiv in cs.AI / cs.LG / cs.MA and prints a sparkly daily digest.",
+      "category": "research",
+      "schedule": "0 8 * * *",
+      "default_enabled": true
+    }
+  ]
+}
